@@ -4785,7 +4785,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "MongoDB.Driver >= *"
+      "MongoDB.Driver >= 2.11.4"
     ]
   },
   "packageFolders": {
@@ -4827,7 +4827,7 @@
         "dependencies": {
           "MongoDB.Driver": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[2.11.4, )"
           }
         },
         "imports": [

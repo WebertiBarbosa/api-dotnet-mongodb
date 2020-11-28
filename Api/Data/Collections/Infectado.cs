@@ -1,4 +1,5 @@
 using System;
+using MongoDB.Driver.GeoJsonObjectModel;
 
 namespace Api.Data.Collections
 {
@@ -14,5 +15,7 @@ namespace Api.Data.Collections
     public DateTime DataNascimento { get; set; }
     public string Sexo { get; set; }
     public GeoJson2DGeographicCoordinates Localizacao { get; set; }
+    public double Latitude { get; internal set; }
+    public double Longitude { get; internal set; }
   }
 }

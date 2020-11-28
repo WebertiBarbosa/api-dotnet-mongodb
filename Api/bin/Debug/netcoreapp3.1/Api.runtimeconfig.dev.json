@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\weber\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\weber\\.nuget\\packages"
+    ]
+  }
+}
